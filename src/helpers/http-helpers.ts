@@ -1,8 +1,9 @@
-import axios, {
+import axios from "axios";
+import type {
+  AxiosInstance,
+  AxiosRequestConfig,
+  AxiosResponse,
   AxiosError,
-  type AxiosInstance,
-  type AxiosRequestConfig,
-  type AxiosResponse,
 } from "axios";
 import { API_URL } from "./constants";
 
