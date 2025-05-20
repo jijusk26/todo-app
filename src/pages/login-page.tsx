@@ -4,7 +4,7 @@ import LogoImage from "../assets/todo-logo.png";
 import { LoginOutlined } from "@ant-design/icons";
 import { useNavigate } from "react-router-dom";
 import { loginUser } from "../service/auth";
-import { HttpStatus } from "../helpers/http-helpers";
+import { HttpStatus } from "../helpers/enums/http-status";
 
 const LoginPage = () => {
   const [loginCreds, setLoginCreds] = useState<{

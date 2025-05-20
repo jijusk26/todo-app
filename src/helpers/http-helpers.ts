@@ -6,15 +6,7 @@ import type {
   AxiosError,
 } from "axios";
 import { API_URL } from "./constants";
-
-export enum HttpStatus {
-  SUCCESS,
-  FAILED,
-  UNAUTHORIZED,
-  NOTFOUND,
-  FORBIDDEN,
-  CONFLICT,
-}
+import { HttpStatus } from "./enums/http-status";
 
 export class ServiceResult<T> {
   data: T | null;
